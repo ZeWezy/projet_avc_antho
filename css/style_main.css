@@ -1,66 +1,41 @@
+/* CSS PAGE PC */
+
 body {
-  background-color: #e4e9e9;
-  color: #000000;
-  display: border-box;
-}
-nav {
-  padding: 17px;
-  background-color: #e17600;
-  border-radius: 10px;
-  text-align: center;
+  background-color: rgb(30, 44, 44);
+  color: rgb(255, 255, 255);
 }
 
-nav a button {
-  padding: 25px;
-  border: none;
-  border-radius: 10px;
-  color: #ced6e0;
-  font-family: "Sansita Swashed", cursive;
-  margin: 0px 0px 0px 100px;
-  background-color: #3a2712;
-}
-nav a button:hover {
-  color: white;
-  transition-duration: 0.5s;
-  transform: scale(1.2);
-}
-.header {
+h1 {
   text-align: center;
-  color: white;
-  font-family: "Sansita Swashed", cursive;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.main {
-  padding: 17px;
-  background-color: #e17600;
-  text-align: center;
-  font-family: "Sansita Swashed", cursive;
-  margin: 10px 0 0 0;
-  border-radius: 10px;
-  height: 100vh;
-}
-.span {
-  color: #000000;
-  font-size: 100px;
-}
-.span:hover {
-  transform: scale(1.2);
+h1:hover {
+  transform: scale(1.5);
   transition-duration: 1s;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+ul {
+  background-color: white;
   border-radius: 10px;
+  border-width: 4px;
+  text-align: center;
 }
 
-@media screen and (max-width: 640px) {
-  nav a button {
-    padding: 17px;
-    border: none;
-    border-radius: 10px;
-    color: #ced6e0;
-    font-family: "Sansita Swashed", cursive;
-    margin: 0px 0px 0px 17px;
-    background-color: #3a2712;
-  }
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
 }
+
+a button {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+a button:hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+/*  */
